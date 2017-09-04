@@ -1,0 +1,35 @@
+{
+  "contract_name": "GameState",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "player2Life",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "player1Life",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60c18061001b6000396000f300606060405263ffffffff60e060020a600035041663b7dff39d8114602a578063ce64cd64146050575bfe5b3415603157fe5b60376076565b6040805163ffffffff9092168252519081900360200190f35b3415605757fe5b60376089565b6040805163ffffffff9092168252519081900360200190f35b600054602060020a900463ffffffff1681565b60005463ffffffff16815600a165627a7a72305820914c34429e5ae1fcface6d9e8691e749015d157873439ad182b4b15712f5a6880029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1495422592396
+}

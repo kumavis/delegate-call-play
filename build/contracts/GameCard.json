@@ -1,0 +1,43 @@
+{
+  "contract_name": "GameCard",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "play",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "player2Life",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "player1Life",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60dd8061001b6000396000f300606060405263ffffffff60e060020a60003504166393e84cd981146034578063b7dff39d146043578063ce64cd64146069575bfe5b3415603b57fe5b6041608f565b005b3415604a57fe5b60506092565b6040805163ffffffff9092168252519081900360200190f35b3415607057fe5b605060a5565b6040805163ffffffff9092168252519081900360200190f35b5b565b600054602060020a900463ffffffff1681565b60005463ffffffff16815600a165627a7a723058204c648c420bffd8240d013ce3fca5babd7c4623cfffeefc4ce305c06c895b55750029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1495422592396
+}
